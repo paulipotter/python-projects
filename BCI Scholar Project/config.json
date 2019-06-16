@@ -1,0 +1,22 @@
+{
+  "_comment" "main program"
+  "total_study_days": 24
+  "window":60*60
+  "frames" 86400/60*60
+  "start_time":1462597200
+  "end_time":1464335999
+  "_comment": "calf_counter"
+  
+  "day":0
+  "calf_tag":101
+  "total_study_days":24
+  "calf_tag_end":170
+  "host": "mysql.cs.ksu.edu"
+  "user": "paulipotter"
+  "password":""
+  "database":"proj_bci"
+  "csv_file":"shedding_times.csv"
+  "if_sick":1
+  "calf_is_sick":"sick"
+
+}
