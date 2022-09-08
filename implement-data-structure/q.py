@@ -60,18 +60,6 @@ class Q:
         """
         return self.cnt
 
-    def top(self):
-        """
-        Returns the element at the top of the Q
-        :return: the element at the top of the Q
-        """
-        # If Q not empty, return the data
-        if self.front:
-            return self.front.data
-        # If Q is empty, return null
-        else:
-            return None
-
     def is_empty(self):
         """
         Returns true if the Q is empty
