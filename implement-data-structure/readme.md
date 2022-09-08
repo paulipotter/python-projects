@@ -1,4 +1,21 @@
-Part 1:
+# Instructions on how to run the program
+## Part 1: 
+Navigate to the directory where the program is and run: 
+
+```
+python3 ./program.py
+```
+
+## Part 2: 
+From the directory where you ran part 1, run:
+```
+python -m unittest discover ./test
+```
+
+<br>
+
+# Prompt
+## Part 1:
 You are given a deck containing N cards. While holding the deck:
 
 1. Take the top card off the deck and set it on the table
@@ -13,7 +30,7 @@ The program should take the number of cards in the deck as a command line argume
 Please ensure the program compiles and runs correctly (no pseudo-code). You can use any programming language of your choice (eg. C, Java, Python etc.).
 
 
-Part 2:
+## Part 2:
 Once the program for the above has been written please write a program that runs unit test cases to validate the program. Please write unit tests for all the various test case scenarios for this.
 
 Please provide clear instructions on how to run program and unit tests.
