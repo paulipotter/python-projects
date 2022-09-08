@@ -38,6 +38,8 @@ class TestQ(TestCase):
         pop_item = str(test_q.pop())
         self.assertNotIn(pop_item, str(test_q))
 
+
 class TestItem(TestCase):
-    # no functions to test
-    pass
+    def test_item(self):
+        test_q = Q()
+        self.assertTrue(test_q, Q())
