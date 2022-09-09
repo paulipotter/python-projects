@@ -14,7 +14,7 @@ class TestQ(TestCase):
         n = randint(1, 10)
         for i in range(n):
             test_q.push(n)
-        self.assertEqual(test_q.size(), n+2)
+        self.assertEqual(test_q.size(), n + 2)
 
     def test_is_empty(self):
         test_q = Q()
@@ -42,4 +42,4 @@ class TestQ(TestCase):
 class TestItem(TestCase):
     def test_item(self):
         test_q = Q()
-        self.assertTrue(test_q, Q())
+        self.assertTrue(isinstance(test_q, Q))
