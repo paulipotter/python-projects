@@ -1,4 +1,5 @@
 # Instructions on how to run the program
+Author: Paula Mendez
 ## Part 1: 
 Navigate to the directory where the program is and run: 
 
