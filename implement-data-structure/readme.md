@@ -10,7 +10,7 @@ python3 ./program.py
 ## Part 2: 
 From the directory where you ran part 1, run:
 ```
-python -m unittest discover ./test
+python3 -m unittest discover ./test
 ```
 
 <br>
