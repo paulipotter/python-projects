@@ -1,4 +1,6 @@
-# coding-questions
+# binary tree coding-questions
+
+Note: Any time you have a binary tree problem, it's a good idea to see if there's a recursive solution; all you need to do is to be able to define what you should at a random node and then ask if that holds true for all nodes.
 
 I practice different coding questions then post them here for posterity!
 
